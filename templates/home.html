@@ -1,19 +1,20 @@
 <html>
-<body>
+
+<body style="background-color:aqua; max-width: 500px;margin: auto;">
     <div class="login">
        <h1>FWI Prediction</h1>
    
         <!-- Main Input For Receiving Query to our ML -->
        <form action="{{ url_for('predict_datapoint')}}" method="post">
-         <input type="text" name="Temperature" placeholder="Temperature" required="required" /><br>
-           <input type="text" name="RH" placeholder="RH" required="required" /><br>
-           <input type="text" name="Ws" placeholder="Ws" required="required" /><br>
-           <input type="text" name="Rain" placeholder="Rain" required="required" /><br>
-           <input type="text" name="FFMC" placeholder="FFMC" required="required" /><br>
-           <input type="text" name="DMC" placeholder="DMC" required="required" /><br>
-           <input type="text" name="ISI" placeholder="ISI" required="required" /><br>
-           <input type="text" name="Classes" placeholder="Classes" required="required" /><br>
-           <input type="text" name="Region" placeholder="Region" required="required" /><br>
+         <input style="margin-bottom:20px" type="text" name="Temperature" placeholder="Temperature" required="required" /><br>
+           <input style="margin-bottom:20px" type="text" name="RH" placeholder="RH" required="required" /><br>
+           <input style="margin-bottom:20px" type="text" name="Ws" placeholder="Ws" required="required" /><br>
+           <input style="margin-bottom:20px" type="text" name="Rain" placeholder="Rain" required="required" /><br>
+           <input style="margin-bottom:20px" type="text" name="FFMC" placeholder="FFMC" required="required" /><br>
+           <input style="margin-bottom:20px" type="text" name="DMC" placeholder="DMC" required="required" /><br>
+           <input style="margin-bottom:20px" type="text" name="ISI" placeholder="ISI" required="required" /><br>
+           <input style="margin-bottom:20px" type="text" name="Classes" placeholder="Classes" required="required" /><br>
+           <input style="margin-bottom:20px" type="text" name="Region" placeholder="Region" required="required" /><br>
    
    
    
